@@ -1,42 +1,41 @@
-import { ImageList, ImageListItem, useMediaQuery, useTheme } from "@mui/material";
+import {
+  ImageList,
+  ImageListItem,
+  useMediaQuery,
+  useTheme,
+} from "@mui/material";
 
 const images = [
   {
-      "src": "https://picsum.photos/id/0/5616/3744"
+    src: "https://picsum.photos/500/200",
   },
   {
-      "src": "https://picsum.photos/id/1/5616/3744"
+    src: "https://picsum.photos/id/200/500",
   },
   {
-      "src": "https://picsum.photos/id/10/2500/1667"
+    src: "https://picsum.photos/id/400/500",
   },
   {
-      "src": "https://picsum.photos/id/100/2500/1656"
+    src: "https://picsum.photos/id/200/500",
   },
   {
-      "src": "https://picsum.photos/id/1000/5626/3635"
+    src: "https://picsum.photos/id/400/500",
   },
   {
-      "src": "https://picsum.photos/id/1001/5616/3744"
+    src: "https://picsum.photos/id/200/500",
   },
   {
-      "src": "https://picsum.photos/id/1002/4312/2868"
+    src: "https://picsum.photos/id/400/600",
   },
   {
-      "src": "https://picsum.photos/id/1004/5616/3744"
+    src: "https://picsum.photos/id/400/200",
   },
   {
-      "src": "https://picsum.photos/id/1005/5760/3840"
+    src: "https://picsum.photos/id/200/300",
   },
   {
-      "src": "https://picsum.photos/id/1006/3000/2000"
+    src: "https://picsum.photos/id/400/100",
   },
-  {
-      "src": "https://picsum.photos/id/1008/5616/3744"
-  },
-  {
-      "src": "https://picsum.photos/id/1009/5000/7502"
-  }
 ];
 
 export default function Gallery() {

@@ -6,9 +6,9 @@ export default function AboutContent(props) {
     "Content Creation",
     "Creative Direction",
     "Art Direction",
+    "Set Design",
     "Video",
     "Photography",
-    "Set Design",
     "Copywriting",
   ];
 
@@ -31,7 +31,7 @@ export default function AboutContent(props) {
     <div className="my-8 md:flex container mx-2 md:mx-auto">
       <div className="w-80">fotos</div>
       <div>
-        <h3 className="text-5xl font-bold">HI! 🙂</h3>
+        <h3 className="text-5xl font-bold mb-4">HI! 🙂</h3>
         <p className="text-4xl">
         I’m Barbara and I’m a social media manager and digital
 content creator, currently based in Portugal.
@@ -39,11 +39,11 @@ content creator, currently based in Portugal.
         <div>
           <div className="container mx-auto my-8 md:flex justify-around items-center">
             <div>
-              <h3 className="text-3xl font-bold">SERVICES</h3>
-              <ul className="list-disc list-inside">
+              <h3 className="text-4xl font-bold mb-2">SERVICES</h3>
+              <ul className>
                 {services.map((entry) => (
-                  <li key={entry} className="border-black uppercase text-3xl">
-                    {entry}
+                  <li key={entry} className="border-black text-3xl">
+                    - {entry}
                   </li>
                 ))}
               </ul>
