@@ -28,22 +28,24 @@ export default function Menu() {
               onClick={() => setIsNavOpen((prev) => !prev)}
             />
           </div>
-          <div className="px-4">
-            {isNavOpen ? (
-              <div>
-                <ul>
+          <div className="px-4 relative">
+            {isNavOpen && (
+                <ul className="absolute top-1/2 -translate-y-1/2">
                   {menuEntries.map((entry) => (
-                    <li key={entry.path} className="border-black hover:text-gray-500 uppercase text-3xl font-bold">
+                    <li
+                      key={entry.path}
+                      className="border-black hover:text-gray-500 uppercase text-3xl font-bold"
+                    >
                       <Link href={entry.path}>
                         <a>{entry.name}</a>
                       </Link>
                     </li>
                   ))}
                 </ul>
-              </div>
-            ) : (
-              <HeaderTitle />
             )}
+            <div>
+              <HeaderTitle className={isNavOpen ? 'invisible' : 'visible'} />
+            </div>
           </div>
         </section>
       </nav>
