@@ -54,7 +54,7 @@ export default function Gallery() {
           </div>
         </div>
       )}
-      <ImageList variant="masonry" cols={matchDownMd ? 1 : 4} gap={15}>
+      <ImageList variant="masonry" cols={matchDownMd ? 1 : 4} gap={30}>
         {posts.map((item) => (
           <ImageListItem key={item.src}>
             <a href={item.link} target="_blank" rel="noreferrer">
