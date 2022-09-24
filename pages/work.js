@@ -8,7 +8,7 @@ const WorkPage = () => {
     <>
       <Header />
       <Ticker text="WORK" />
-      <div className="flex m-2">
+      <div className="m-2">
         <Gallery />
       </div>
     </>
