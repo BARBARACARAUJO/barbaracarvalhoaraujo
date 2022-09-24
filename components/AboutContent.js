@@ -14,15 +14,15 @@ export default function AboutContent(props) {
 
   const links = [
     {
-      link: "/link",
+      link: "/CV.pdf",
       name: "CURRICULUM VITAE",
     },
     {
-      link: "/link",
+      link: "https://www.linkedin.com/in/acbarbara/",
       name: "LINKEDIN",
     },
     {
-      link: "/link",
+      link: "mailto:carvalho.abarbara@gmail.com",
       name: "E-MAIL",
     },
   ];
@@ -31,7 +31,7 @@ export default function AboutContent(props) {
     <div className="my-8 md:flex container mx-2 md:mx-auto">
       <div className="w-80">fotos</div>
       <div>
-        <h3 className="text-5xl font-bold mb-4">HI! 🙂</h3>
+        <h3 className="text-5xl font-bold mb-4">HI! <img rel="noreferrer" className="inline" src="smile.png" /></h3>
         <p className="text-4xl">
         I’m Barbara and I’m a social media manager and digital
 content creator, currently based in Portugal.
