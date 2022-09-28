@@ -29,10 +29,12 @@ export default function AboutContent(props) {
 
   return (
     <div className="my-8 md:flex container mx-2 md:mx-auto">
-      <div className="w-80">fotos</div>
+      <div className="w-80">              <img className="w-3/4"
+                src="foto_perfil.jpg" alt="face photo of barbara"
+              /></div>
       <div>
         <h3 className="text-5xl font-bold mb-4">HI! <img rel="noreferrer" className="inline" src="smile.png" /></h3>
-        <p className="text-4xl">
+        <p className="text-3xl">
         I’m Barbara and I’m a social media manager and digital
 content creator, currently based in Portugal.
         </p>
