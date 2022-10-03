@@ -61,6 +61,7 @@ export default function Gallery() {
               <img
                 className="hover:scale-105 ease-in duration-100"
                 src={item.src}
+                layout='fill'
                 srcSet={item.src}
                 loading="lazy"
               />
