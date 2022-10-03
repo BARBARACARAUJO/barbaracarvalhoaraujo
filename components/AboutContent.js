@@ -1,7 +1,4 @@
-import Image from "next/image";
 import ButtonLink from "./ButtonLink";
-import profilePic from "../public/foto_perfil.jpg";
-import smiley from "../public/smile.png";
 
 export default function AboutContent(props) {
   const services = [
@@ -34,12 +31,17 @@ export default function AboutContent(props) {
     <div className="my-8 md:flex container mx-2 md:mx-auto">
       <div className="w-80 relative">
         <div className="relative width-100p">
-          <Image src={profilePic} alt="face photo of barbara" />
+          <img src="https://i.imgur.com/cyKt2eD.jpg" alt="face photo of barbara" />
         </div>
       </div>
       <div className="mx-4">
-        <h3 className="text-5xl font-bold mb-4 flex ">
-          <div>HI!</div> <Image objectPosition="bottom" rel="noreferrer" className="inline" objectFit="contain" layout="intrinsic" src={smiley} />
+        <h3 className="text-5xl font-bold mb-4  ">
+          HI!{" "}
+            <img
+              className="inline"
+              src="https://i.imgur.com/vjylJ16.png"
+              alt="face photo of barbara"
+            />
         </h3>
         <p className="text-3xl">
           I’m Barbara and I’m a social media manager and digital content

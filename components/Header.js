@@ -5,7 +5,7 @@ export default function Header(props) {
   return (
     <div {...props}>
       <Head>
-        <link rel="shortcut icon" href="/smile.png" />
+        <link rel="shortcut icon" href="https://i.imgur.com/vjylJ16.png" />
         <title>Bárbara Carvalho Araújo</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
