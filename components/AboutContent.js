@@ -42,7 +42,7 @@ content creator, currently based in Portugal.
           <div className="container mx-auto my-8 md:flex justify-around items-center">
             <div>
               <h3 className="text-4xl font-bold mb-2">SERVICES</h3>
-              <ul className>
+              <ul>
                 {services.map((entry) => (
                   <li key={entry} className="border-black text-3xl">
                     - {entry}
