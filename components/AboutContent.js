@@ -1,4 +1,7 @@
+import Image from "next/image";
 import ButtonLink from "./ButtonLink";
+import profilePic from "../public/foto_perfil.jpg";
+import smiley from "../public/smile.png";
 
 export default function AboutContent(props) {
   const services = [
@@ -29,14 +32,18 @@ export default function AboutContent(props) {
 
   return (
     <div className="my-8 md:flex container mx-2 md:mx-auto">
-      <div className="w-80">              <img className="w-3/4"
-                src="foto_perfil.jpg" alt="face photo of barbara"
-              /></div>
-      <div>
-        <h3 className="text-5xl font-bold mb-4">HI! <img rel="noreferrer" className="inline" src="smile.png" /></h3>
+      <div className="w-80 relative">
+        <div className="relative width-100p">
+          <Image src={profilePic} alt="face photo of barbara" />
+        </div>
+      </div>
+      <div className="mx-4">
+        <h3 className="text-5xl font-bold mb-4 flex ">
+          <div>HI!</div> <Image objectPosition="bottom" rel="noreferrer" className="inline" objectFit="contain" layout="intrinsic" src={smiley} />
+        </h3>
         <p className="text-3xl">
-        I’m Barbara and I’m a social media manager and digital
-content creator, currently based in Portugal.
+          I’m Barbara and I’m a social media manager and digital content
+          creator, currently based in Portugal.
         </p>
         <div>
           <div className="container mx-auto my-8 md:flex justify-around items-center">
@@ -50,7 +57,7 @@ content creator, currently based in Portugal.
                 ))}
               </ul>
             </div>
-            <div>
+            <div className="my-5">
               {links.map((obj) => (
                 <ButtonLink key={obj.name} href={obj.link} text={obj.name} />
               ))}
