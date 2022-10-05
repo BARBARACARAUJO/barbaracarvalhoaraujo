@@ -44,8 +44,7 @@ export default function AboutContent(props) {
             />
         </h3>
         <p className="text-3xl">
-          I’m Barbara and I’m a social media manager and digital content
-          creator, currently based in Portugal.
+          I’m Barbara and I’m a social media manager and digital content creator. Currently based in Portugal, available worldwide.
         </p>
         <div>
           <div className="container mx-auto my-8 md:flex justify-around items-center">
