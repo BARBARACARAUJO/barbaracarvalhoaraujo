@@ -14,7 +14,7 @@ export default function AboutContent(props) {
 
   const links = [
     {
-      link: "https://drive.google.com/file/d/1hjPsNlGcBIpVnIwRNZiu5ilip43GuN7r/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1nh1Jr1XZJJKkR-7SAXMkLM3X8YXAC_Ls/view?usp=sharing",
       name: "CURRICULUM VITAE",
     },
     {
