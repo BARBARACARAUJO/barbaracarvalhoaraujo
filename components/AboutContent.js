@@ -53,7 +53,7 @@ export default function AboutContent(props) {
               <ul>
                 {services.map((entry) => (
                   <li key={entry} className="border-black text-3xl">
-                    ✷ {entry}
+                    - {entry}
                   </li>
                 ))}
               </ul>
