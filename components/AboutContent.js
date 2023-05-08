@@ -10,6 +10,7 @@ export default function AboutContent(props) {
     "Video",
     "Photography",
     "Copywriting",
+    "Email Marketing",
   ];
 
   const links = [
