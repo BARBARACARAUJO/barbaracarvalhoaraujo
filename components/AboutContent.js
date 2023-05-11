@@ -4,6 +4,7 @@ export default function AboutContent(props) {
   const services = [
     "Social Media Strategy",
     "Content Creation",
+    "Influencer Marketing",
     "Creative Direction",
     "Art Direction",
     "Set Design",
